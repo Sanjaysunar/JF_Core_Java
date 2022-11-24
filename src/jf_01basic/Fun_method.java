@@ -4,6 +4,7 @@ public class Fun_method {
     public static void main(String[] args) {
         System.out.println("Before Call");
         fun();
+        fun();
         System.out.println("After Call");
     }
 
