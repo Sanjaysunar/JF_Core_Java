@@ -13,8 +13,10 @@ public class methodTest3 {
     }
 
     private static void fun(Point p) {
+        p = new Point();
         p.x = 10;
         p.y = 10;
+        System.out.println("Inside fun: "+p.x+" "+p.y);
     }
 
 }
