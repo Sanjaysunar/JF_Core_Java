@@ -2,9 +2,9 @@ package jf_02OOPs;
 
 class Point1{
     int x, y;
-    Point1( int a, int b){
-        x = a;
-        y = b;
+    Point1( int x, int y){
+        this.x = x;
+        this.y = y;
     }
     void print(){
         System.out.println("x = "+x +" y = "+ y);
