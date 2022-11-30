@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        int five = 5;
+        int two = 2;
+        int total = five + (five > 6 ? ++two : two--);
+        System.out.println(total);
     }
 }
