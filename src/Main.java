@@ -1,11 +1,7 @@
-class Test
-{
-    int i,j;
-}
+
 class Main{
     public static void main(String[] args) {
-        Test t = new Test();
-        System.out.println(t.i);
-        System.out.println(t.j);
+        String car, bus = "petrol";car = car + bus;
+        System.out.println(car);
     }
 }
